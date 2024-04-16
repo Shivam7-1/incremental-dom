@@ -76,6 +76,6 @@ export function ListRenderer(container, lib) {
   };
 
   this.clear = function() {
-    container.innerHTML = '';
+    container.innerText = '';
   };
 }
