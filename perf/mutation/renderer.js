@@ -72,6 +72,6 @@ export function MutationRenderer(container, lib) {
   };
 
   this.clear = function() {
-    container.innerHTML = '';
+    container.innerText = '';
   };
 }
